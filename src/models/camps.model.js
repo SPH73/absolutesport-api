@@ -1,3 +1,3 @@
-const camps = [];
+const campsList = [];
 
-module.export = camps;
+module.export = campsList;

@@ -6,6 +6,6 @@ const {
 
 const campsRouter = express.Router();
 
-campsRouter.get('/camps', httpGetAllCamps);
+campsRouter.get('/', httpGetAllCamps);
 
 module.exports = campsRouter;
